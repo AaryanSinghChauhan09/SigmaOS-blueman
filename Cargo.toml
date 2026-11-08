@@ -1,12 +1,15 @@
 [package]
-name = "sigmaos_blueman"
+name = "sigmaos-blueman"
 version = "0.1.0"
 edition = "2021"
+description = "BlueZ adapter and known-device manager for SigmaOS"
 license = "MIT"
-description = "SigmaOS blueman component inspired by Linux Mint / Omarchy / Arch Linux."
-
-[dependencies]
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-blueman"
 
 [lib]
 name = "sigmaos_blueman"
 path = "src/lib.rs"
+
+[[bin]]
+name = "sigmaos-blueman"
+path = "src/main.rs"
