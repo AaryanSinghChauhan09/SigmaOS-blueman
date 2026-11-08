@@ -1,0 +1,12 @@
+[package]
+name = "sigmaos_blueman"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "SigmaOS blueman component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[dependencies]
+
+[lib]
+name = "sigmaos_blueman"
+path = "src/lib.rs"
